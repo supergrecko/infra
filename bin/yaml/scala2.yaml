@@ -1,0 +1,19 @@
+compilers:
+  scala2:
+    type: tarballs
+    compression: gz
+    dir: scala-{name}
+    check_exe: bin/scalac -version
+    targets:
+      - name: 2.13.6
+        url: https://downloads.lightbend.com/scala/2.13.6/scala-2.13.6.tgz
+      - name: 2.13.5
+        url: https://downloads.lightbend.com/scala/2.13.5/scala-2.13.5.tgz
+      - name: 2.13.4
+        url: https://downloads.lightbend.com/scala/2.13.4/scala-2.13.4.tgz
+      - name: 2.12.14
+        url: https://downloads.lightbend.com/scala/2.12.14/scala-2.12.14.tgz
+      - name: 2.12.13
+        url: https://downloads.lightbend.com/scala/2.12.13/scala-2.12.13.tgz
+      - name: 2.12.12
+        url: https://downloads.lightbend.com/scala/2.12.12/scala-2.12.12.tgz
